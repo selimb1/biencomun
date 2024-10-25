@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Bien Común</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del Bien Común</h1>
+
+        <div class="question-container">
+            <p>1. ¿Qué es el bien común según la Doctrina Social de la Iglesia?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) El conjunto de condiciones que permiten a todas las personas alcanzar su plenitud.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) El bienestar de un solo grupo privilegiado.</button>
+        </div>
+
+        <div class="question-container">
+            <p>2. ¿Qué debe hacer una sociedad para promover el bien común?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) Respetar los derechos de todos los individuos, especialmente los más vulnerables.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Garantizar los beneficios solo a quienes contribuyan económicamente.</button>
+        </div>
+
+        <!-- Nuevas preguntas añadidas -->
+
+        <div class="question-container">
+            <p>3. ¿El bien común está centrado solo en las necesidades materiales de las personas?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) No, también incluye las dimensiones espirituales, culturales y sociales.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Sí, se refiere exclusivamente al bienestar material.</button>
+        </div>
+
+        <div class="question-container">
+            <p>4. Según la Doctrina Social de la Iglesia, ¿quiénes son responsables de buscar el bien común?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) Todos los miembros de la sociedad.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Solo los gobernantes y políticos.</button>
+        </div>
+
+        <div class="question-container">
+            <p>5. ¿El bien común debe sacrificar los derechos individuales?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) No, el bien común debe proteger y respetar los derechos de cada persona.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Sí, los derechos individuales pueden ser ignorados por el bien común.</button>
+        </div>
+
+        <div class="question-container">
+            <p>6. ¿Cómo contribuye la familia al bien común?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) Fortaleciendo los valores morales y formando personas responsables.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Solo generando riqueza material.</button>
+        </div>
+
+        <div class="question-container">
+            <p>7. ¿La propiedad privada es contraria al bien común según la Iglesia?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) No, siempre y cuando se use de manera solidaria y con responsabilidad social.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Sí, porque impide que todos tengan lo que necesitan.</button>
+        </div>
+
+        <div class="question-container">
+            <p>8. ¿Es obligación del Estado trabajar por el bien común?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) Sí, el Estado debe garantizar el bien común a través de leyes y políticas justas.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) No, el bien común es responsabilidad solo de las personas y las empresas.</button>
+        </div>
+
+        <div class="question-container">
+            <p>9. ¿El bien común debe excluir a algunos sectores de la sociedad?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) No, debe incluir a todos, especialmente a los más desfavorecidos.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Sí, puede excluir a quienes no contribuyen activamente.</button>
+        </div>
+
+        <div class="question-container">
+            <p>10. ¿Qué rol juega la solidaridad en la búsqueda del bien común?</p>
+            <button class="option" onclick="checkAnswer(this, true)">A) Es esencial, ya que fomenta la colaboración y el apoyo mutuo entre las personas.</button>
+            <button class="option" onclick="checkAnswer(this, false)">B) Es irrelevante, porque cada uno debe buscar su propio interés.</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
